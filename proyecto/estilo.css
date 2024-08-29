@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.contenedor {
+    display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+            background-color: blanchedalmond;
+            border-radius: 10px;
+            width: 800px;
+   
+}
+
+.control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botones {
+    margin-top: 10px;
+}
+
+.btn {
+    display: block;
+    margin: 5px auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: white;
+    color:black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+label {
+    font-size: 20px;
+}
